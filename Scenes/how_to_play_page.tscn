@@ -89,7 +89,7 @@ vertical_alignment = 1
 environment = SubResource("Environment_awjxx")
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
-position = Vector2(1330, 660)
+position = Vector2(1655, 809)
 scale = Vector2(5.59765, 5.70313)
 color = Color(1, 0.337255, 1, 1)
 energy = 0.39

@@ -115,7 +115,7 @@ theme_override_constants/outline_size = 65
 theme_override_constants/shadow_outline_size = 60
 theme_override_fonts/font = ExtResource("4_4hy44")
 theme_override_font_sizes/font_size = 121
-text = "Six Seven"
+text = "Key Katcher"
 horizontal_alignment = 1
 vertical_alignment = 1
 
