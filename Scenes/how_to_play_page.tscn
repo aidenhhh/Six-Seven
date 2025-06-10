@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://dh7jonanqoy4f"]
 
-[ext_resource type="Script" uid="uid://bgj2m0gaecxt2" path="res://Scenes/how_to_play_page.gd" id="1_tlywb"]
+[ext_resource type="Script" uid="uid://bgj2m0gaecxt2" path="res://Scripts/how_to_play_page.gd" id="1_tlywb"]
 [ext_resource type="Texture2D" uid="uid://bshh6j4vnpoi4" path="res://Images/Adobe Express - file (1).jpg" id="1_uc42p"]
 [ext_resource type="FontFile" uid="uid://b4f0njbu205k4" path="res://Images/Daydream.ttf" id="2_yuoff"]
 [ext_resource type="StyleBox" uid="uid://mhgugw4tbco7" path="res://Images/hoverbox2.tres" id="3_awjxx"]

@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://bkgxjn6ctpim"]
+[gd_scene load_steps=3 format=3 uid="uid://bkgxjn6ctpim"]
+
+[ext_resource type="Script" uid="uid://dc3704n6im8mi" path="res://Scripts/LevelScript.gd" id="1_vly50"]
+[ext_resource type="PackedScene" uid="uid://c6wh5h3qnakxr" path="res://Scenes/PauseMenu.tscn" id="2_c5erv"]
 
 [node name="Level1" type="Node2D"]
+script = ExtResource("1_vly50")
+
+[node name="PauseMenu" parent="." instance=ExtResource("2_c5erv")]
+offset_left = 586.0
+offset_top = 390.0
+offset_right = 586.0
+offset_bottom = 390.0
