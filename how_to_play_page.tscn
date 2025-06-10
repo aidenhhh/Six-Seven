@@ -1,4 +1,9 @@
-[gd_scene format=3 uid="uid://dh7jonanqoy4f"]
+[gd_scene load_steps=3 format=3 uid="uid://dh7jonanqoy4f"]
+
+[sub_resource type="Gradient" id="Gradient_4hy44"]
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_gwffi"]
+gradient = SubResource("Gradient_4hy44")
 
 [node name="How to Play Page" type="Control"]
 layout_mode = 3
@@ -7,3 +12,34 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -1783.5
+offset_top = -906.0
+offset_right = 1783.5
+offset_bottom = 906.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.576471, 0.690196, 1, 1)
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(1488.56, 58.3803)
+rotation = -0.380482
+scale = Vector2(37.5121, 44.4269)
+color = Color(0.337255, 0.396078, 1, 1)
+energy = 1.4
+texture = SubResource("GradientTexture2D_gwffi")
+
+[node name="PointLight2D2" type="PointLight2D" parent="."]
+position = Vector2(-195, 188)
+rotation = 2.79253
+scale = Vector2(40.4692, 44.4269)
+color = Color(0.337255, 0.396078, 1, 1)
+energy = 1.6
+texture = SubResource("GradientTexture2D_gwffi")

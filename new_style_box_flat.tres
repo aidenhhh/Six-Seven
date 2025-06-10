@@ -1,0 +1,18 @@
+[gd_resource type="StyleBoxFlat" format=3 uid="uid://dm7055brktrip"]
+
+[resource]
+content_margin_left = 50.0
+content_margin_top = 10.0
+content_margin_right = 50.0
+content_margin_bottom = 10.0
+bg_color = Color(0.622969, 0.386847, 0.75897, 1)
+border_width_bottom = 40
+border_color = Color(0.328006, 0.16975, 0.414163, 1)
+border_blend = true
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+expand_margin_top = 5.0
+expand_margin_bottom = 10.0
+shadow_size = 20
