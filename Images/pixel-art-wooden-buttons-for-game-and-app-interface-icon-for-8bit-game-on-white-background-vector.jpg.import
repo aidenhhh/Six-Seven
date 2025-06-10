@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bda6jfck20vaf"
-path="res://.godot/imported/howtoplay.png-9046b6ddeeb3633b4fb6929d698a87df.ctex"
+uid="uid://b72hjhtkvr5ea"
+path="res://.godot/imported/pixel-art-wooden-buttons-for-game-and-app-interface-icon-for-8bit-game-on-white-background-vector.jpg-a4aad4c5de88ce4b55872aade7a25926.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/howtoplay.png"
-dest_files=["res://.godot/imported/howtoplay.png-9046b6ddeeb3633b4fb6929d698a87df.ctex"]
+source_file="res://Images/pixel-art-wooden-buttons-for-game-and-app-interface-icon-for-8bit-game-on-white-background-vector.jpg"
+dest_files=["res://.godot/imported/pixel-art-wooden-buttons-for-game-and-app-interface-icon-for-8bit-game-on-white-background-vector.jpg-a4aad4c5de88ce4b55872aade7a25926.ctex"]
 
 [params]
 

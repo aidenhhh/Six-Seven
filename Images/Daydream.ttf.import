@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://drfqcikvpjeam"
-path="res://.godot/imported/Minecraftia-Regular.ttf-0fa89177c20e22423e9c17d6458d6166.fontdata"
+uid="uid://b4f0njbu205k4"
+path="res://.godot/imported/Daydream.ttf-15d9c582374d6fc49ffd24dbe51c1dd4.fontdata"
 
 [deps]
 
-source_file="res://Minecraftia-Regular.ttf"
-dest_files=["res://.godot/imported/Minecraftia-Regular.ttf-0fa89177c20e22423e9c17d6458d6166.fontdata"]
+source_file="res://Images/Daydream.ttf"
+dest_files=["res://.godot/imported/Daydream.ttf-15d9c582374d6fc49ffd24dbe51c1dd4.fontdata"]
 
 [params]
 

@@ -1,10 +1,10 @@
 [gd_scene load_steps=10 format=3 uid="uid://ckvijxk07v1li"]
 
-[ext_resource type="Script" uid="uid://bn7wk61h6gq66" path="res://menu.gd" id="1_lti8b"]
-[ext_resource type="StyleBox" uid="uid://mhgugw4tbco7" path="res://hoverbox2.tres" id="1_mae5d"]
-[ext_resource type="StyleBox" uid="uid://dm7055brktrip" path="res://new_style_box_flat.tres" id="2_ouk20"]
-[ext_resource type="FontFile" uid="uid://b4f0njbu205k4" path="res://Scenes/Daydream.ttf" id="4_4hy44"]
-[ext_resource type="Texture2D" uid="uid://bshh6j4vnpoi4" path="res://Adobe Express - file (1).jpg" id="4_ytr4m"]
+[ext_resource type="Script" uid="uid://bn7wk61h6gq66" path="res://Scripts/menu.gd" id="1_lti8b"]
+[ext_resource type="StyleBox" uid="uid://mhgugw4tbco7" path="res://Images/hoverbox2.tres" id="1_mae5d"]
+[ext_resource type="StyleBox" uid="uid://dm7055brktrip" path="res://Images/new_style_box_flat.tres" id="2_ouk20"]
+[ext_resource type="FontFile" uid="uid://b4f0njbu205k4" path="res://Images/Daydream.ttf" id="4_4hy44"]
+[ext_resource type="Texture2D" uid="uid://bshh6j4vnpoi4" path="res://Images/Adobe Express - file (1).jpg" id="4_ytr4m"]
 
 [sub_resource type="Theme" id="Theme_ouk20"]
 Button/font_sizes/font_size = 60
