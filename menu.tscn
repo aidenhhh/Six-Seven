@@ -1,10 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://cig0asvrc5lwe"]
+[gd_scene load_steps=10 format=3 uid="uid://r4dnp1tiu8oy"]
 
-[ext_resource type="Script" uid="uid://bn7wk61h6gq66" path="res://Scripts/menu.gd" id="1_lti8b"]
-[ext_resource type="StyleBox" uid="uid://mhgugw4tbco7" path="res://Images/hoverbox2.tres" id="1_mae5d"]
-[ext_resource type="StyleBox" uid="uid://dm7055brktrip" path="res://Images/new_style_box_flat.tres" id="2_ouk20"]
-[ext_resource type="FontFile" uid="uid://b4f0njbu205k4" path="res://Images/Daydream.ttf" id="4_4hy44"]
-[ext_resource type="Texture2D" uid="uid://bshh6j4vnpoi4" path="res://Images/Adobe Express - file (1).jpg" id="4_ytr4m"]
+[ext_resource type="Script" path="res://menu.gd" id="1_lti8b"]
+[ext_resource type="StyleBox" path="res://hoverbox2.tres" id="1_mae5d"]
+[ext_resource type="StyleBox" path="res://new_style_box_flat.tres" id="2_ouk20"]
+[ext_resource type="FontFile" path="res://Scenes/Daydream.ttf" id="4_4hy44"]
+[ext_resource type="Texture2D" path="res://Adobe Express - file (1).jpg" id="4_ytr4m"]
 
 [sub_resource type="Theme" id="Theme_ouk20"]
 Button/font_sizes/font_size = 60
@@ -20,12 +20,12 @@ glow_strength = 0.94
 glow_hdr_threshold = 0.0
 glow_hdr_scale = 1.0
 
-[sub_resource type="Gradient" id="Gradient_wwsa2"]
+[sub_resource type="Gradient" id="Gradient_ytr4m"]
 offsets = PackedFloat32Array(0, 0.707792)
 colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_l48gv"]
-gradient = SubResource("Gradient_wwsa2")
+gradient = SubResource("Gradient_ytr4m")
 fill = 1
 fill_from = Vector2(0.504587, 0.486239)
 fill_to = Vector2(0, 0)

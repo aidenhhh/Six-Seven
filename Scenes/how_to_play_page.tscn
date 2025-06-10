@@ -1,9 +1,42 @@
-[gd_scene load_steps=3 format=3 uid="uid://dh7jonanqoy4f"]
+[gd_scene load_steps=13 format=3 uid="uid://c4e347u0r6w5k"]
 
-[sub_resource type="Gradient" id="Gradient_4hy44"]
+[ext_resource type="Script" uid="uid://bgj2m0gaecxt2" path="res://Scenes/how_to_play_page.gd" id="1_tlywb"]
+[ext_resource type="Texture2D" uid="uid://bshh6j4vnpoi4" path="res://Images/Adobe Express - file (1).jpg" id="1_uc42p"]
+[ext_resource type="FontFile" uid="uid://b4f0njbu205k4" path="res://Images/Daydream.ttf" id="2_yuoff"]
+[ext_resource type="StyleBox" uid="uid://mhgugw4tbco7" path="res://Images/hoverbox2.tres" id="3_awjxx"]
+[ext_resource type="StyleBox" uid="uid://dm7055brktrip" path="res://Images/new_style_box_flat.tres" id="4_tlywb"]
 
-[sub_resource type="GradientTexture2D" id="GradientTexture2D_gwffi"]
-gradient = SubResource("Gradient_4hy44")
+[sub_resource type="Environment" id="Environment_awjxx"]
+background_mode = 3
+glow_enabled = true
+glow_intensity = 5.18
+glow_strength = 0.94
+glow_hdr_threshold = 0.0
+glow_hdr_scale = 1.0
+
+[sub_resource type="Gradient" id="Gradient_ytr4m"]
+offsets = PackedFloat32Array(0, 0.707792)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_tlywb"]
+gradient = SubResource("Gradient_ytr4m")
+fill = 1
+fill_from = Vector2(0.504587, 0.486239)
+fill_to = Vector2(0, 0)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uc42p"]
+
+[sub_resource type="Theme" id="Theme_yuoff"]
+TextEdit/font_sizes/font_size = 50
+TextEdit/styles/normal = SubResource("StyleBoxEmpty_uc42p")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_awjxx"]
+
+[sub_resource type="Theme" id="Theme_qvbhy"]
+Button/font_sizes/font_size = 40
+Button/styles/focus = SubResource("StyleBoxEmpty_awjxx")
+Button/styles/hover = ExtResource("3_awjxx")
+Button/styles/normal = ExtResource("4_tlywb")
 
 [node name="How to Play Page" type="Control"]
 layout_mode = 3
@@ -12,34 +45,124 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_tlywb")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_uc42p")
+stretch_mode = 4
+
+[node name="Label" type="Label" parent="."]
+self_modulate = Color(1.2, 1, 1, 1)
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -1783.5
-offset_top = -906.0
-offset_right = 1783.5
-offset_bottom = 906.0
+offset_left = -348.0
+offset_top = -468.0
+offset_right = 348.0
+offset_bottom = -256.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.576471, 0.690196, 1, 1)
+theme_override_colors/font_color = Color(0.623529, 0.388235, 0.756863, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 10
+theme_override_constants/shadow_offset_y = 20
+theme_override_constants/outline_size = 65
+theme_override_constants/shadow_outline_size = 60
+theme_override_fonts/font = ExtResource("2_yuoff")
+theme_override_font_sizes/font_size = 121
+text = "How to play"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_awjxx")
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
-position = Vector2(1488.56, 58.3803)
-rotation = -0.380482
-scale = Vector2(37.5121, 44.4269)
-color = Color(0.337255, 0.396078, 1, 1)
-energy = 1.4
-texture = SubResource("GradientTexture2D_gwffi")
+position = Vector2(1330, 660)
+scale = Vector2(5.59765, 5.70313)
+color = Color(1, 0.337255, 1, 1)
+energy = 0.39
+texture = SubResource("GradientTexture2D_tlywb")
 
-[node name="PointLight2D2" type="PointLight2D" parent="."]
-position = Vector2(-195, 188)
-rotation = 2.79253
-scale = Vector2(40.4692, 44.4269)
-color = Color(0.337255, 0.396078, 1, 1)
-energy = 1.6
-texture = SubResource("GradientTexture2D_gwffi")
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -668.5
+offset_top = -195.5
+offset_right = 668.5
+offset_bottom = 195.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_yuoff")
+theme_override_colors/font_outline_color = Color(0.763333, 0.480501, 0.896108, 1)
+theme_override_constants/outline_size = 6
+text = "	Your goal is to unlock the door that leads to the next level. To do so, you must collect all the keys spread around the course and go to the exit within the amount of moves provided."
+context_menu_enabled = false
+emoji_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+empty_selection_clipboard_enabled = false
+wrap_mode = 1
+
+[node name="Back" type="Button" parent="."]
+visible = false
+self_modulate = Color(3.314, 1, 1, 1)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -134.5
+offset_top = -36.5
+offset_right = 134.5
+offset_bottom = 36.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_qvbhy")
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 30
+theme_override_fonts/font = ExtResource("2_yuoff")
+text = "Back"
+
+[node name="Play" type="Button" parent="."]
+self_modulate = Color(3.314, 1, 1, 1)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -134.5
+offset_top = -274.0
+offset_right = 134.5
+offset_bottom = -201.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = SubResource("Theme_qvbhy")
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 30
+theme_override_fonts/font = ExtResource("2_yuoff")
+text = "Play"
+
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
