@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://c4e347u0r6w5k"]
+[gd_scene load_steps=13 format=3 uid="uid://dh7jonanqoy4f"]
 
 [ext_resource type="Script" uid="uid://bgj2m0gaecxt2" path="res://Scenes/how_to_play_page.gd" id="1_tlywb"]
 [ext_resource type="Texture2D" uid="uid://bshh6j4vnpoi4" path="res://Images/Adobe Express - file (1).jpg" id="1_uc42p"]
@@ -124,27 +124,6 @@ empty_selection_clipboard_enabled = false
 wrap_mode = 1
 
 [node name="Back" type="Button" parent="."]
-visible = false
-self_modulate = Color(3.314, 1, 1, 1)
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -134.5
-offset_top = -36.5
-offset_right = 134.5
-offset_bottom = 36.5
-grow_horizontal = 2
-grow_vertical = 2
-theme = SubResource("Theme_qvbhy")
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 30
-theme_override_fonts/font = ExtResource("2_yuoff")
-text = "Back"
-
-[node name="Play" type="Button" parent="."]
 self_modulate = Color(3.314, 1, 1, 1)
 layout_mode = 1
 anchors_preset = 7
@@ -162,7 +141,7 @@ theme = SubResource("Theme_qvbhy")
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 30
 theme_override_fonts/font = ExtResource("2_yuoff")
-text = "Play"
+text = "Back
+"
 
 [connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
-[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://cig0asvrc5lwe"]
+[gd_scene load_steps=10 format=3 uid="uid://ckvijxk07v1li"]
 
 [ext_resource type="Script" uid="uid://bn7wk61h6gq66" path="res://Scripts/menu.gd" id="1_lti8b"]
 [ext_resource type="StyleBox" uid="uid://mhgugw4tbco7" path="res://Images/hoverbox2.tres" id="1_mae5d"]
