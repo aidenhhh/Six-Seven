@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d33ud5jnvywig"
-path="res://.godot/imported/quittt.png-c11060e4cef6c47d5b0475c9aed2d954.ctex"
+path="res://.godot/imported/quittt.png-8bcd24fe792eccb693f68939d2607046.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/quittt.png"
-dest_files=["res://.godot/imported/quittt.png-c11060e4cef6c47d5b0475c9aed2d954.ctex"]
+source_file="res://quittt.png"
+dest_files=["res://.godot/imported/quittt.png-8bcd24fe792eccb693f68939d2607046.ctex"]
 
 [params]
 

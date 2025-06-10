@@ -1,11 +1,13 @@
-[gd_scene load_steps=0 format=3 uid="uid://bkgxjn6ctpim"]
+[gd_scene load_steps=3 format=3 uid="uid://bkgxjn6ctpim"]
+
+[ext_resource type="Script" uid="uid://b68wg4x0so5gk" path="res://Scripts/LevelScript.gd" id="1_4hvuo"]
+[ext_resource type="PackedScene" uid="uid://ctyiyfy1y6yae" path="res://Scenes/PauseMenu.tscn" id="2_vly50"]
 
 [node name="Level1" type="Node2D"]
+script = ExtResource("1_4hvuo")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer"]
-offset_right = 474.0
-offset_bottom = 245.0
-text = "This is a test for LEVEL 1!!
-"
+[node name="PauseMenu" parent="." instance=ExtResource("2_vly50")]
+offset_left = 585.0
+offset_top = 551.0
+offset_right = 585.0
+offset_bottom = 551.0
