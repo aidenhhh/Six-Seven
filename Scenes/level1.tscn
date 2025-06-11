@@ -168,7 +168,12 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 556.0
-offset_top = 429.0
-offset_right = 556.0
-offset_bottom = 429.0
+offset_left = 581.0
+offset_top = 435.0
+offset_right = 581.0
+offset_bottom = 435.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(581, 329)
