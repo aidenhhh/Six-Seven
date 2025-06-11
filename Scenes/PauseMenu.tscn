@@ -19,10 +19,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -204.0
-offset_top = -176.5
-offset_right = 204.0
-offset_bottom = 176.5
+offset_left = -252.0
+offset_top = -176.0
+offset_right = 262.0
+offset_bottom = 103.0
 grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(2.885, 0)
@@ -33,6 +33,7 @@ layout_mode = 2
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 30
 theme_override_fonts/font = ExtResource("2_5w4ur")
+theme_override_font_sizes/font_size = 35
 text = "Resume"
 
 [node name="MainMenu" type="Button" parent="VBoxContainer"]
@@ -41,6 +42,7 @@ layout_mode = 2
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 30
 theme_override_fonts/font = ExtResource("2_5w4ur")
+theme_override_font_sizes/font_size = 35
 text = "Main Menu"
 
 [node name="Quit" type="Button" parent="VBoxContainer"]
@@ -49,6 +51,7 @@ layout_mode = 2
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 30
 theme_override_fonts/font = ExtResource("2_5w4ur")
+theme_override_font_sizes/font_size = 35
 text = "Quit"
 
 [node name="Label" type="Label" parent="."]
@@ -73,7 +76,7 @@ theme_override_constants/shadow_offset_y = 20
 theme_override_constants/outline_size = 65
 theme_override_constants/shadow_outline_size = 60
 theme_override_fonts/font = ExtResource("2_5w4ur")
-theme_override_font_sizes/font_size = 50
+theme_override_font_sizes/font_size = 75
 text = "Paused"
 horizontal_alignment = 1
 vertical_alignment = 1
