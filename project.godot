@@ -15,9 +15,17 @@ run/main_scene="res://Scenes/menu.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://Images/icon.svg"
 
+[autoload]
+
+LevelManage="*res://Scripts/LevelManage.gd"
+
 [display]
 
 window/stretch/aspect="expand"
+
+[global_group]
+
+keys=""
 
 [gui]
 

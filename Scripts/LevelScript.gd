@@ -21,3 +21,8 @@ func pauseMenu():
 		Engine.time_scale = 0
 	
 	paused = !paused
+	
+func _ready():
+	LevelManage.reset_keys()
+	print(LevelManage.total_keys)
+	
