@@ -13,10 +13,18 @@ var slide_direction = Vector2.ZERO
 
 func _physics_process(delta: float) -> void:
 	if canMove:
-		var input = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
-		if input!=Vector2.ZERO:
+		if Input.is_action_pressed("ui_right"):
+			slide_direction=Vector2(1,0)
+		elif Input.is_action_pressed("ui_left"):
+			slide_direction=Vector2(-1,0)
+		elif Input.is_action_pressed("ui_up"):
+			slide_direction=Vector2(0,-1)
+		elif Input.is_action_pressed("ui_down"):
+			slide_direction=Vector2(0,1)
+		
+		if slide_direction!=Vector2.ZERO:
 			canMove=false
-			slide_direction = input.normalized()
+		
 			
 	if not canMove:
 		velocity = slide_direction*maxV

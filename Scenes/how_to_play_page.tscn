@@ -56,7 +56,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_uc42p")
-stretch_mode = 4
 
 [node name="Label" type="Label" parent="."]
 self_modulate = Color(1.2, 1, 1, 1)

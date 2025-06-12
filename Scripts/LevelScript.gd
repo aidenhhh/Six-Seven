@@ -24,5 +24,5 @@ func pauseMenu():
 	
 func _ready():
 	LevelManage.reset_keys()
-	print(LevelManage.total_keys)
+	
 	
