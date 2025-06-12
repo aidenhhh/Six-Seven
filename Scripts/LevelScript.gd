@@ -2,9 +2,13 @@ extends Node2D
 
 @onready var pause_menu = $PauseMenu
 
-var paused = true
+var paused = false
+var temp = 1
 
 func _process(delta):
+	if temp == 1:
+		pause_menu.hide();
+		temp = temp - 1
 	if Input.is_action_just_pressed("pause"):
 		pauseMenu()
 		
